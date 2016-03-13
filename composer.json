@@ -1,0 +1,37 @@
+{
+    "name": "jumpaolo/myfirsttest",
+    "description": "Case study how use composer and packagist",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "test",
+        "composer",
+        "packagist"
+    ],
+    "homepage": "https://ifile.isapp.it",
+    "support": {
+        "issues": "https://github.com/jumpaolo/myfirsttest/issues",
+        "source": "https://github.com/jumpaolo/myfirsttest"
+    },
+    "authors": [
+        {
+            "name": "Giampaolo Losito",
+            "email": "giampaolo@isapp.it"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mytest\\Test\\": "src/Test"
+        }
+    },
+    "require": {
+        "php": ">=5.3.23",
+        "zendframework/zend-stdlib": "2.*",
+        "zendframework/zendpdf": "dev-master",
+        "zendframework/zendsearch": "dev-master",
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "johnkary/phpunit-speedtrap": "~1.0@dev",
+        "codeclimate/php-test-reporter": "dev-master"
+    }
+}
