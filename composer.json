@@ -36,7 +36,7 @@
         }
 	],
     "require": {
-        "php": ">=5.3.23",
+        "php": ">=5.3.23"
     },
     "require-dev": {
         "phpunit/phpunit": "*",
