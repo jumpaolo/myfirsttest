@@ -37,9 +37,6 @@
 	],
     "require": {
         "php": ">=5.3.23",
-        "zendframework/zend-stdlib": "2.*",
-        "zendframework/zendpdf": "dev-master",
-        "zendframework/zendsearch": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "*",
