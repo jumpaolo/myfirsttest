@@ -45,5 +45,6 @@
         "phpunit/phpunit": "*",
         "johnkary/phpunit-speedtrap": "~1.0@dev",
         "codeclimate/php-test-reporter": "dev-master"
-    }
+    },
+    "minimum-stability": "dev"
 }
