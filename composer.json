@@ -23,6 +23,18 @@
             "Mytest\\Test\\": "src/Test"
         }
     },
+    "repositories": 
+	[
+		{
+			"type": "git",
+			"url": "https://github.com/zendframework/ZendSearch.git",
+			"reference": "master"
+		},
+		{
+            "type": "composer",
+            "url": "http://packages.zendframework.com/"
+        }
+	],
     "require": {
         "php": ">=5.3.23",
         "zendframework/zend-stdlib": "2.*",
